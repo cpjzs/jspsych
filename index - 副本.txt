@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flanker Task Experiment</title>
+  <!-- 引入本地的jsPsych库和插件 -->
+  <script src="jspsych/jspsych.js"></script>
+  <link href="jspsych/css/jspsych.css" rel="stylesheet">
+  <script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+  <script src="jspsych/plugins/jspsych-image-keyboard-response.js"></script>
+  <script src="jspsych/plugins/jspsych-instructions.js"></script>
+</head>
+<body>
+  <!-- 实验内容将在这里动态生成 -->
+  <script src="experiment.js"></script>
+</body>
+</html>
